@@ -1,0 +1,484 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+#left h1
+{
+    color: white;
+    padding-left: 6rem;
+    font-size: 1.2rem;
+}
+#right #cont
+{
+    display: flex;  
+}
+#right #cont li
+{
+    list-style-type: none;
+    padding-right: 3rem;
+    padding-top: 0%;
+    padding-left: 0rem;
+} 
+#right #cont #list
+{
+    padding-right: 6rem;
+}
+#right #cont li a
+{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+    
+}
+
+#card1
+{
+    padding-top: 1rem;
+    background-image: url(./images/intro-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    text-align: center;
+    padding-bottom: 20%;
+}
+#card1 h1{
+     color: white;
+     font-size: 4rem;
+     padding-top: 16%;
+     margin-bottom: 0%;
+}
+#card1 p
+{
+    color: white;
+    font-size: 1.7rem;
+    
+}
+#card1 button{
+     font-size: 1.3rem;
+     padding: 0.8rem;
+     background-color: rgb(3, 244, 3);
+     border-radius: 5px;
+     border: 2px solid rgb(3, 244, 3);
+}
+#card2
+{
+    display:flex;
+    padding-top: 3%;
+
+}
+#card2 h1
+{
+     color: black;
+     font-size: 2rem;
+     padding-left: 15%;
+}
+span
+{
+    text-decoration: underline;
+  text-decoration-color: rgb(3, 244, 3);
+}
+#d1
+
+{
+    width: 42%;
+    /* background-color: yellow; */
+}
+#d1 #s1
+{
+    color: rgb(3, 244, 3);
+    text-decoration: none;
+}
+#d1 p{
+    padding-left: 15%;
+    font-size: 1rem;
+}
+#d1 button
+{
+    margin-left: 15%;
+    margin-top: 5%;
+    padding: 8px;
+    background-color:rgb(3, 244, 3);
+    color: white;
+    border: 2px solid rgb(3, 244, 3);
+    border-radius: 10px;
+}
+#d2
+{
+    width: 15%;
+    /* background-color: blue; */
+}
+#d2 #pic1{
+    width: 90%;
+    padding-left: 0%;
+    padding-top: 4%;
+    margin-bottom: 1%;
+}
+#d2 h1
+{
+   padding-left: 0%;
+   margin-top: 0%;
+   padding-right: 0%;
+   margin-right: 0%;
+}
+#d2 #para
+{
+    margin-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-right: 0%;
+}
+#d3
+{
+    width: 30%;
+    /* background-color: green; */
+}
+#d3 #pic2
+{
+    width: 45%;
+    height: 36%;
+    padding-left: 0%;
+    padding-top: 2%;
+    margin-bottom: 1%;
+}
+#d3 h2{
+    padding-left: 3%;
+    margin-top: 0%;
+}
+#d3 #para2
+{
+    padding-left: 3%;
+    padding-top: 2%;
+}
+#card3
+{
+   background-color: rgb(7, 190, 7);
+   padding-bottom: 4%;
+}
+#card3 h1{
+
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 1rem;
+    color: white;
+    padding-top: 4%;
+    font-size: 1.3rem;
+}
+#card3 #pg1
+{
+     display: flex;
+     justify-content: center;
+     text-align: center;
+    color: white;
+    padding-bottom: 3%;
+}
+#d4 #u1
+{
+    display: flex;
+   padding-left: 20%;
+}
+#d4 #u1 li{
+    list-style-type: none;
+}
+#d4 #u1 li img
+{
+      width: 50%;
+      border-radius: 50%;
+      padding-left: 0%;
+}
+#d4 #u1 #head1{
+    padding-left: 9%;
+    font-size: 1rem;
+    color: white;
+}
+#d4 #u1 #head2{
+    padding-left: 0%;
+    font-size: 1rem;
+    color: white;
+}
+#d4 #u1 #head3{
+    padding-left: 13%;
+    font-size: 1rem;
+    color: white;
+}
+#d4 #u1 #head4{
+    padding-left: 0%;
+    color: white;
+}
+#d4 #u1 #pg2{
+     margin-left: -7%;
+     font-size: 0.9rem;
+     color: white;
+}
+#d4 #u1 #pg3{
+    margin-left: 1%;
+    font-size: 0.9rem;
+    color: white;
+}
+#d4 #u1 #pg4{
+    margin-left: -1%;
+    font-size: 0.9rem;
+    color: white;
+}
+#d4 #u1 #pg5{
+    margin-left: 4%;
+    font-size: 0.9rem;
+    color: white;
+}
+#card4 h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%;
+}
+#card4 p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#d5 
+{
+    text-align: center;
+}
+#d5 button
+{
+    margin-left: 1%;
+    margin-bottom: 2%;
+}
+#d5 #btn1
+{
+    background-color: rgb(7, 190, 7) ;
+    color: white;
+    border: 1px solid rgb(7, 190, 7);
+    padding-left: 0.6%;
+    padding-right: 0.6%;
+   
+}
+#d6
+{
+    display: flex;
+    justify-content: center;
+}
+#d6 img{
+    padding-right:1%;
+    padding-bottom: 1%;
+}
+#d7 img{
+    padding-right:1%;
+    padding-bottom: 1%;
+
+}
+#d8 img{
+    padding-right:1%;
+    padding-bottom: 1%;
+
+}
+#d7
+{
+
+    display: flex;
+    justify-content: center;
+}
+#d8
+{
+    display: flex;
+    justify-content: center;
+}
+#card5
+{
+    background-image:url(./images/testimonials-bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 36%;
+    margin-top: 3%;
+    opacity:0.5;
+    height: 0.5px;
+}
+#card5 h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-top: 6%;
+    font-size: 2rem;
+}
+#card5 #pg6
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding-top: 3%;
+}
+#card5 #d9
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.fa-solid
+{
+   color: white;
+   font-size: 0.8rem;
+}
+.fa-regular
+{
+  color: rgb(103, 102, 102);
+  font-size: 0.8rem;
+  padding-left: 0.7%;
+}
+#card6 h1
+{
+   text-align: center;
+   padding-top: 2%;
+   padding-bottom: 1rem;
+}
+#card6 p{
+    text-align: center;
+    color: gray;
+    margin-bottom: 3%;
+}
+#u2
+{
+   display: flex;
+   justify-content: center;
+   list-style-type: none;
+   margin-bottom: 4%;
+}
+#u2 #li{
+    padding-top: 2%;
+   
+}
+#u2 #l1
+{
+    padding-right: 2%;
+}
+#u2 #l2
+{
+    padding-left: 5%;
+}
+#u2 #l3
+{
+    padding-left: 5%;
+}
+#l1 h4{
+    text-decoration: underline;
+}
+#u2 a{
+    text-decoration: none;
+    margin-left: -10%;
+    color: gray;
+}
+#u2 #l1 h3{
+    margin-left: -20%;
+    font-size: 0.9rem;
+    color: gray;
+}
+#u2 #l2 h3{
+    margin-left: 14%;
+    font-size: 0.9rem;
+    color: gray;
+}
+#u2 #l3 h3{
+    margin-left: -15%;
+    font-size: 0.9rem;
+    color: gray;
+}
+#card6
+{
+    background-color: rgb(206, 205, 205);
+    padding-top: 1rem;
+    padding-bottom: 5%;
+}
+#card6 h2{
+ text-align: center;
+ padding-bottom: 1%;
+}
+#card6 #lb1
+{
+    padding-right: 1%;
+    padding-left: 27%;
+}
+input{
+    padding: 7px 152px 7px 2px;
+    margin-right: 1%;
+}
+textarea
+{
+    padding-top: 22px;
+}
+#card6 #lb2
+{
+    padding-right: 1%;
+    padding-left: 27%;
+}
+#card6 #d11
+{
+    text-align: center;
+    padding-top: 1%;   
+}
+#d11 button
+{
+    padding: 6px 12px 6px 12px;
+    border-radius:4px;
+    background-color: rgb(7, 190, 7) ;
+    border: 2px solid  rgb(7, 190, 7);
+    color: white;
+}
+footer
+{
+ background-color: black;
+ padding-top:  1rem;
+ padding-bottom: 1rem;
+}
+#u3
+{
+     display: flex;
+     justify-content: center;
+     list-style-type: none;
+}
+#u3 #l4
+{
+   margin-left: -5%;
+}
+#u3 #l5
+{
+    padding-left: 4%;
+}
+#u3 #l6
+{
+    padding-left: 4%;
+}
+.fa-facebook-f
+{
+  color:rgb(51, 255, 51);
+  background-color: rgb(43, 42, 42);
+  padding: 8px 10px 8px 10px;
+  border-radius: 100%;
+}
+.fa-twitter
+{
+    color:rgb(51, 255, 51);
+    background-color: rgb(43, 42, 42);
+    padding: 8px 10px 8px 10px;
+    border-radius: 100%;
+}
+.fa-google-plus-g
+{
+    color:rgb(51, 255, 51);
+    background-color: rgb(43, 42, 42);
+    padding: 8px 10px 8px 10px;
+  border-radius: 100%;
+}
+footer h1{
+    color: gray;
+    text-align: center;
+    font-size: 1rem;
+}
